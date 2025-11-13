@@ -86,7 +86,7 @@ airflow webserver --port 8080
 Open your browser and go to:
 
 ```bash
-👉 http://localhost:8080
+ http://<your ec2 public ip>:8080
 ```
 
 ---
