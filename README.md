@@ -25,7 +25,7 @@ cd open_weather_pipeline_cde
 
 ---
 
-### Directory
+### ⛓️Directory
 
 
 ├── dags/
@@ -58,7 +58,10 @@ OPENWEATHER_API_KEY=your_api_key
 ---
 
 ### 3. Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
 ---
 
