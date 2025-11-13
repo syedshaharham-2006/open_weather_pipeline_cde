@@ -1,4 +1,4 @@
-# Airflow-OpenWeather-Pipeline
+# 🌪️Airflow-OpenWeather-Pipeline
 
 ## Overview
 This project provides an automated **ETL pipeline** using **Apache Airflow** to collect, process, and store weather data from the **OpenWeather API**.  
@@ -6,7 +6,7 @@ The workflow runs on a scheduled basis, supports **Dockerized deployment**, and 
 
 ---
 
-## Features
+## 🪄Features
 - Scheduled extraction of weather data from **OpenWeather API**
 - Data cleaning and transformation using **Python scripts**
 - Automated loading to **cloud storage** (e.g., AWS S3) or a **relational database** (Snowflake, RDS, etc.)
@@ -15,7 +15,7 @@ The workflow runs on a scheduled basis, supports **Dockerized deployment**, and 
 
 ---
 
-## Setup and Installation
+## ⚙️Setup and Installation
 
 ### 1. Clone the repository
 ```bash
@@ -27,6 +27,7 @@ cd open_weather_pipeline_cde
 
 ### Directory
 
+.
 ├── dags/
 │ └── openweather_dag.py
 ├── scripts/
@@ -88,13 +89,12 @@ API keys, cloud/database credentials, and location settings can be updated in th
 
 Choose which cities or regions to collect data for inside the DAG configuration.
 
+---
+
 ### 🔁 Pipeline Steps
 
 Extract: Collect weather data from OpenWeather API on a schedule
-
 Transform: Clean and standardize the weather data
-
 Load: Save processed data to cloud or database
-
 Notify / Monitor: (Optional) Send alerts or email notifications
 
