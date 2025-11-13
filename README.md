@@ -19,9 +19,23 @@ The workflow runs on a scheduled basis, supports **Dockerized deployment**, and 
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/ayanhussain81/Airflow-OpenWeather-Pipeline.git
-cd Airflow-OpenWeather-Pipeline
+git clone https://github.com/ayanhussain81/Airflow-OpenWeather-Pipeline.git](https://github.com/syedshaharham-2006/open_weather_pipeline_cde
+cd open_weather_pipeline_cde
 ```
+
+---
+
+### Directory
+
+├── dags/
+│ └── openweather_dag.py
+├── scripts/
+│ ├── extract.py
+│ ├── transform.py
+│ └── load.py
+├── Dockerfile
+├── requirements.txt
+└── README.md
 
 ---
 
@@ -32,9 +46,12 @@ Create a `.env` file in the root directory:
 OPENWEATHER_API_KEY=your_api_key
 ```
 
+---
 
 ### 3. Install dependencies
 pip install -r requirements.txt
+
+---
 
 ### 4. Initialize Airflow
 
@@ -42,6 +59,7 @@ pip install -r requirements.txt
 airflow db init
 ```
 
+---
 
 ### 5. Start Airflow Scheduler and Webserver
 
@@ -50,6 +68,8 @@ airflow scheduler
 airflow webserver --port 8080
 ```
 
+---
+
 ### 6. Access Airflow UI
 Open your browser and go to:
 
@@ -57,6 +77,7 @@ Open your browser and go to:
 👉 http://localhost:8080
 ```
 
+---
 
 ### 7. Trigger the DAG
 You can start the DAG manually via Airflow UI or CLI.
