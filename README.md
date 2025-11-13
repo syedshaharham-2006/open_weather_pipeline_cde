@@ -20,3 +20,12 @@ The workflow runs on a scheduled basis, supports **Dockerized deployment**, and 
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/ayanhussain81/Airflow-OpenWeather-Pipeline.git
+
+---
+
+### 2. Set your OpenWeather API Key
+Create a `.env` file in the root directory:
+
+```bash
+OPENWEATHER_API_KEY=your_api_key
+
