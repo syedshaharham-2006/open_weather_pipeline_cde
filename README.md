@@ -35,8 +35,7 @@ cd open_weather_pipeline_cde
 │ ├── transform.py
 │ └── load.py
 ├── Dockerfile
-├── requirements.txt
-└── README.md
+└── requirements.txt
 ```
 
 ---
