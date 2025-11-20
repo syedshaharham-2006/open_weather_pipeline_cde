@@ -28,13 +28,12 @@ cd open_weather_pipeline_cde
 ### ⛓️Directory
 
 ```
-├── dags/
-│ └── openweather_dag.py
-├── scripts/
-│ ├── extract.py
-│ ├── transform.py
-│ └── load.py
+├── docker_exp/
+| ├── dags/
+│ └── weather_dag-modify.py
 ├── Dockerfile
+├── docker-compose.yaml
+├── yourec2key.pem
 └── requirements.txt
 ```
 
