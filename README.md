@@ -15,16 +15,6 @@ The workflow runs on a scheduled basis, supports **Dockerized deployment**, and 
 
 ---
 
-## ⚙️Setup and Installation
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/ayanhussain81/Airflow-OpenWeather-Pipeline.git](https://github.com/syedshaharham-2006/open_weather_pipeline_cde
-cd open_weather_pipeline_cde
-```
-
----
-
 ### ⛓️Directory
 
 ```
@@ -35,6 +25,13 @@ cd open_weather_pipeline_cde
 ├── docker-compose.yaml
 ├── yourec2key.pem
 └── requirements.txt
+```
+## ⚙️Setup and Installation
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/ayanhussain81/Airflow-OpenWeather-Pipeline.git](https://github.com/syedshaharham-2006/open_weather_pipeline_cde
+cd open_weather_pipeline_cde
 ```
 
 ---
