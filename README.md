@@ -40,12 +40,10 @@ cd open_weather_pipeline_cde
 ---
 
 ### 2. Set your OpenWeather API Key
-Create a `.env` file in the root directory:
 
-```bash
-OPENWEATHER_API_KEY=your_api_key
-```
-
+ Make an account on https://home.openweathermap.org/
+ get your api key
+ 
 ---
 
 ### 3. Install dependencies
