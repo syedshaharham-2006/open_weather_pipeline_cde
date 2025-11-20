@@ -27,24 +27,17 @@ cd open_weather_pipeline_cde
 
 ### ⛓️Directory
 
-
+```
 ├── dags/
-
 │ └── openweather_dag.py
-
 ├── scripts/
-
 │ ├── extract.py
-
 │ ├── transform.py
-
 │ └── load.py
-
 ├── Dockerfile
-
 ├── requirements.txt
-
 └── README.md
+```
 
 ---
 
